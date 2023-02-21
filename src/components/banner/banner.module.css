@@ -1,0 +1,177 @@
+.banner {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 40rem;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.5;
+}
+
+.bannerText {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bannerText p:nth-child(1) {
+    align-self: flex-start;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+}
+
+.bannerText p:nth-child(2) {
+    font-size: 2rem;
+}
+
+.bannerText p:nth-child(2)>span {
+    color: #ffbd39
+}
+
+.bannerText p:nth-child(3) {
+    font-size: 1.3rem;
+
+}
+
+@media (min-width:335px) {
+    .bannerText p:nth-child(1) {
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width:365px) {
+    .bannerText p:nth-child(1) {
+        padding-right: 2.5rem;
+    }
+}
+
+@media (min-width:395px) {
+    .bannerText p:nth-child(1) {
+        padding-right: 3rem;
+    }
+}
+
+@media (min-width:420px) {
+    .bannerText p:nth-child(1) {
+        padding-right: 4rem;
+    }
+}
+
+@media (min-width:460px) {
+    .bannerText p:nth-child(1) {
+        padding-right: 4.25rem;
+    }
+}
+
+
+@media (min-width:567px) {
+
+    .bannerText p:nth-child(1) {
+        font-size: 1.1rem;
+        padding-right: 1rem;
+    }
+
+    .bannerText p:nth-child(2) {
+        font-size: 3rem;
+    }
+
+
+    .bannerText p:nth-child(3) {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .bannerText p:nth-child(1) {
+        padding-right: 4rem;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .bannerText p:nth-child(1) {
+        padding-right: 10rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .bannerText {
+        position: static;
+        width: 50%;
+    }
+
+    .bannerText p:nth-child(1) {
+        padding-right: 1.5rem;
+    }
+
+    .image {
+        width: 50%;
+        height: 40rem;
+    }
+
+    .image img {
+        opacity: 1;
+        height: 100%;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    .bannerText p:nth-child(1) {
+        font-size: 1.5rem;
+        padding-right: 0.5rem;
+
+    }
+
+    .bannerText p:nth-child(2) {
+        font-size: 4rem;
+    }
+
+
+    .bannerText p:nth-child(3) {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+
+@media (min-width: 1400px) {
+    .bannerText p:nth-child(1) {
+
+        padding-right: 3rem;
+
+    }
+}

@@ -1,0 +1,76 @@
+.aboutMe {
+    display: flex;
+    padding: 8rem;
+}
+
+.imageWrapper {
+    display: none;
+}
+
+.imageWrapper img {
+    height: 100%;
+}
+
+.explain {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.explain span:not(.project) {
+    color: #999999;
+}
+
+
+.explain h2 {
+    font-size: 3rem;
+}
+
+.explain p:nth-child(2) {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.email {
+    font-family: sans-serif;
+}
+
+.explain p:last-child {
+    font-size: 1.5rem;
+}
+
+.project {
+    color: #ffbd39
+}
+
+.button{
+    font-family: yekan;
+    font-size:1rem;
+    width: 8rem;
+    padding:1rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #ffbd39;
+}
+
+@media (min-width: 992px) {
+    .imageWrapper {
+        display: flex;
+        justify-content: center;
+        height: 40rem;
+        width: 100%;
+        object-fit: cover;
+        flex-basis: 50%;
+    }
+
+    .explain {
+        flex-basis: 50%;
+
+    }
+
+    .button{
+        cursor: pointer;
+    }
+}

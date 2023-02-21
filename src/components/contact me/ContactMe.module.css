@@ -1,0 +1,33 @@
+.contactMe {
+    padding-top: 8rem;
+    margin-bottom: 6rem;
+}
+
+.contactMe h2 {
+    text-align: center;
+}
+
+.iconWrapper {
+    margin-top: 3rem;
+    font-family: sans-serif;
+    direction: ltr;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+}
+
+
+
+
+@media (min-width: 567px) {
+    .iconWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .iconWrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

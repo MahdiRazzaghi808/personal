@@ -1,0 +1,22 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.skillWrapper {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem
+}
+
+@media (min-width: 768px) {
+    .skillWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
