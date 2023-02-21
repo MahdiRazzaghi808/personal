@@ -1,6 +1,6 @@
 .aboutMe {
     display: flex;
-    padding: 8rem;
+    padding-top: 8rem;
 }
 
 .imageWrapper {
@@ -14,6 +14,7 @@
 .explain {
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 3rem;
     font-size: 1.1rem;
     font-weight: bold;
