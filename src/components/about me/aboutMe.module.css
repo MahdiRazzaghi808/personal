@@ -54,6 +54,7 @@
     padding:1rem 1.5rem;
     border-radius: 0.5rem;
     background-color: #ffbd39;
+    color: #000;
 }
 
 @media (min-width: 992px) {
