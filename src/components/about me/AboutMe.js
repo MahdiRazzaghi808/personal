@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './aboutMe.module.css'
 import aboutImage from '../../asset/banner.png'
+import resume from '../../asset/resume.pdf'
 
 const AboutMe = () => {
     return (
@@ -17,7 +18,7 @@ const AboutMe = () => {
                 <p>ایمیل : <span className={styles.email}>mahdi.razzaghi@yahoo.com</span> </p>
                 <p>تلفن : <span>09920801032</span></p>
                 <p><span className={styles.project}>15</span> پروژه کامل شده</p>
-                <a href="/src/asset/resume.pdf" download className={styles.button}>دانلود رزومه</a>
+                <a href={resume} download="myFile" className={styles.button}>دانلود رزومه</a>
             </div>
         </div>
     )
