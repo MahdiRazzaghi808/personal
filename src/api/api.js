@@ -30,8 +30,8 @@ export const myProjects = [
     { id: 11, title: "تولید رمز", image: password, technologies: ["js", "sass"], link: "https://mahdirazzaghi808.github.io/fast-food-css/", explain: "", active: "active" },
 
 
-    { id: 12, title: "هاست", image: BHost, technologies: ["tailwind"], link: "#", explain: "", active: "deActive" },
-    { id: 13, title: "هاست ", image: parsHost, technologies: ["tailwind"], link: "#", explain: "", active: "deActive" },
+    { id: 12, title: "هاست", image: BHost, technologies: ["tailwind"], link: "https://mahdirazzaghi808.github.io/BHost-tailwind/", explain: "", active: "active" },
+    { id: 13, title: "هاست ", image: parsHost, technologies: ["tailwind"], link: "https://mahdirazzaghi808.github.io/parsHost-tailwind/", explain: "", active: "active" },
 
     { id: 14, title: "باغ وحش", image: zoo, technologies: ["bootstrap"], link: "https://mahdirazzaghi808.github.io/zoo-bootstrap/  ", explain: "", active: "active" },
     { id: 15, title: "هواشناسی", image: weather, technologies: ["js", "bootstrap"], link: "https://mahdirazzaghi808.github.io/weather-bootstrap/", explain: "", active: "active" },
