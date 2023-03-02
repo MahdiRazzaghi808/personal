@@ -17,7 +17,7 @@ import admin from "../asset/project/question.svg"
 export const myProjects = [
     { id: 1, title: "فرم ثبت نام", image: register, technologies: ["react", "css"], link: "https://mahdirazzaghi808.github.io/loginRegister-react-css/", explain: "", active: "active" },
     { id: 2, title: "کوئیز اپ", image: quizApp, technologies: ["react", "bootstrap"], link: "https://mahdirazzaghi808.github.io/quizApp-react-bootstrap/", explain: "",active:"active" },
-    { id: 3, title: "فروشگاه", image: reactShop, technologies: ["react", "css"], link: "https://mahdirazzaghi808.github.io/fast-food-css/", explain: "ui سایت در حال تغییر می باشد", active: "deActive" },
+    { id: 3, title: "فروشگاه", image: reactShop, technologies: ["react", "css"], link: "https://mahdirazzaghi808.github.io/shop-react-css/", explain: "ui سایت در حال تغییر می باشد", active: "active" },
     { id: 4, title: "شخصی", image: personal, technologies: ["react", "css"], link: "#", explain: "", active: "active" },
 
     { id: 5, title: "پنل ادمین", image: admin, technologies: ["js", "tailwind"], link: "#", explain: "", active: "deActive" },
