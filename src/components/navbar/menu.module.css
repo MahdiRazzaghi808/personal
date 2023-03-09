@@ -30,6 +30,10 @@
     color: #ffbd39;
 }
 
+.active{
+    color: #ffbd39
+}
+
 .wrapper div:last-child {
     display: none;
     gap: 0.75rem;
