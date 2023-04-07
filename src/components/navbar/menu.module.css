@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
+
     width: 100%;
     gap: 0.5rem;
 
@@ -23,16 +23,20 @@
 
 .menu a {
     color: #fff;
-    transition: all 0.2s linear
+    transition: all 0.2s linear;
+    cursor: pointer;
 }
 
 .menu a:hover {
     color: #ffbd39;
 }
 
-.active{
+
+.navLink a.active {
     color: #ffbd39
+
 }
+
 
 .wrapper div:last-child {
     display: none;
@@ -81,7 +85,7 @@
         right: 0;
         width: 300px;
         height: 100vh;
-        padding-top: 2rem;
+        /* padding-top: 2rem; */
         z-index: 100;
         transition: all 0.25s linear;
     }

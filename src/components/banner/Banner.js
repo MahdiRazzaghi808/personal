@@ -4,7 +4,7 @@ import banner from "../../asset/banner.png"
 export default function Banner() {
     return (
 
-        <div className={styles.banner}>
+        <div className={styles.banner} id='home'>
 
             <div className={styles.bannerText}>
                 <p>سلام</p>

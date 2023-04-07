@@ -10,15 +10,18 @@ import ContactMe from './components/contact me/ContactMe';
 import Footer from './components/footer/Footer';
 function App() {
   return (
-    <div className="container">
+    <>
+
       <Navbar />
-      <Banner />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <ContactMe />
+      <div className="container">
+        <Banner />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <ContactMe />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

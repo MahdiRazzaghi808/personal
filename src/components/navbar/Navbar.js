@@ -51,26 +51,29 @@ z-index:102;
 
 
 const Navbar = () => {
-    const [open, setOpen] = useState(false)
+    const [openState, setOpenState] = useState(false)
 
     const clickHandler = () => {
-        setOpen(!open)
+        setOpenState(prev => !prev)
     }
 
 
     return (
-            <div className={styles.navbar}>
+        <div className={styles.navbar}>
+            <div className="container">
+                <div className={styles.wrapper}>
 
-                <a href="https://github.com/MahdiRazzaghi808" className={styles.logo}><img src={logo} alt="logo" /></a>
+                    <a href="https://github.com/MahdiRazzaghi808" className={styles.logo}><img src={logo} alt="logo" /></a>
 
-                <Div open={open} onClick={clickHandler}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </Div>
-                <Menu open={open} />
+                    <Div open={openState} onClick={clickHandler}>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </Div>
+                    <Menu open={{ openState, setOpenState }} />
 
-
+                </div>
+            </div>
         </div>
     )
 

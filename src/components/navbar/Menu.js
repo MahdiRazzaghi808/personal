@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-scroll';
+
 
 
 import styled from 'styled-components'
@@ -12,33 +14,40 @@ const Div = styled.div`
 
 `
 
+const itemsMenu = [
+    { id: 1, content: 'صفحه اصلی', href: 'home' },
+    { id: 2, content: 'درباره من', href: 'about' },
+    { id: 3, content: 'مهارت ها', href: 'skills' },
+    { id: 4, content: 'پروژه ها', href: 'projects' },
+    { id: 5, content: 'ارتباط با من', href: 'contact-me' },
+]
+
+
+
+
 const Menu = ({ open }) => {
+    const { openState, setOpenState } = open
+
+    const closeHandler = () => {
+        setOpenState(false)
+    }
 
     return (
         <>
-            <Div className={styles.wrapper} open={open}>
+            <Div className={styles.wrapper} open={openState}>
 
                 <ul className={styles.menu}>
 
-                    <li>
-                        <a href="#" >صفحه اصلی</a>
-                    </li>
 
-                    <li>
-                        <a href='#about' smooth>درباره من</a>
-                    </li>
+                    {itemsMenu.map(item => <li key={item.id} className={styles.navLink}>
 
-                    <li>
-                        <a href="#skills">مهارت ها</a>
-                    </li>
+                        <Link activeClass={styles.active} to={item.href} spy={true} smooth={true} offset={-128} duration={200} onClick={closeHandler}>
 
-                    <li>
-                        <a href="#projects">پروژه ها</a>
-                    </li>
+                            {item.content}
 
-                    <li>
-                        <a href="#contact-me">ارتباط با من</a>
-                    </li>
+                        </Link>
+                    </li>)}
+
                 </ul>
 
             </Div>
