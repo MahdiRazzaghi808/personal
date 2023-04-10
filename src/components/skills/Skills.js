@@ -7,10 +7,12 @@ import Skill from './Skill'
 const mySkills = [
   { id: 1, title: "HTML5", percent: 95 },
   { id: 2, title: "CSS3", percent: 90 },
-  { id: 3, title: "JS", percent: 75 },
-  { id: 4, title: "React", percent: 55 },
-  { id: 5, title: "Tailwind", percent: 45 },
-  { id: 6, title: "Bootstrap", percent: 40 },
+  { id: 3, title: "JS", percent: 85 },
+  { id: 4, title: "React", percent: 70 },
+  { id: 5, title: "MUI", percent: 70 },
+  { id: 6, title: "Tailwind", percent: 50 },
+  { id: 7, title: "Bootstrap", percent: 40 },
+  { id: 8, title: "Sass", percent: 50 },
 ]
 
 const Skills = () => {

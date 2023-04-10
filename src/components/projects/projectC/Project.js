@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './project.module.css'
-import { technologyIcon } from '../../helper/technology'
+import { technologyIcon } from '../../../helper/technology'
 const Project = ({ data }) => {
     return (
         <div className={styles.wrapper}>
