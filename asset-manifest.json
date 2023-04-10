@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.da6230fe.css",
-    "main.js": "/personal/static/js/main.eeaad363.js",
+    "main.css": "/personal/static/css/main.e81fc5b9.css",
+    "main.js": "/personal/static/js/main.8c0a790a.js",
     "static/media/resume.pdf": "/personal/static/media/resume.3be0a215891870981e59.pdf",
     "static/media/reactShop.jpg": "/personal/static/media/reactShop.7ec544792a44cfffd96d.jpg",
     "static/media/BHost.jpg": "/personal/static/media/BHost.52d19cbaa77ddb690359.jpg",
@@ -11,9 +11,11 @@
     "static/media/fast-food.jpg": "/personal/static/media/fast-food.1467ae8dd088125dc14f.jpg",
     "static/media/shop.jpg": "/personal/static/media/shop.30282a41af92b03d5470.jpg",
     "static/media/zarinpal.jpg": "/personal/static/media/zarinpal.eb91a9b37d16314699dc.jpg",
+    "static/media/cmsFa-react-mui.jpg": "/personal/static/media/cmsFa-react-mui.449b6e247a7688e23275.jpg",
     "static/media/quizApp.jpg": "/personal/static/media/quizApp.9211ac21d80bf182b7d2.jpg",
     "static/media/zoo.jpg": "/personal/static/media/zoo.bc7a554a0e2ec4088b61.jpg",
     "static/media/register.jpg": "/personal/static/media/register.11a7e91eb8f8f352ce07.jpg",
+    "static/media/lamborghini.jpg": "/personal/static/media/lamborghini.7f8f750349e8e638105d.jpg",
     "static/media/password.jpg": "/personal/static/media/password.c3a71de9835e968350b0.jpg",
     "static/media/personal.jpg": "/personal/static/media/personal.31bbd7bae5bb015208c8.jpg",
     "static/media/logo.svg": "/personal/static/media/logo.f98afcf4e90bd6d681bf5e809ef6d5d6.svg",
@@ -24,15 +26,16 @@
     "static/media/sass.svg": "/personal/static/media/sass.eebb8c7d36e22f3f6eea5e6edfa027a3.svg",
     "static/media/bootstrap.svg": "/personal/static/media/bootstrap.93fe84041cc1b588f15c332248529333.svg",
     "static/media/question.svg": "/personal/static/media/question.b3042d4a8dec6cc2cad1928ed8170350.svg",
+    "static/media/mui.svg": "/personal/static/media/mui.734426c25d85d6f02b49b98d28ef9f03.svg",
     "static/media/js.svg": "/personal/static/media/js.a85a7da1524412b41f8df2bf45e4280a.svg",
     "index.html": "/personal/index.html",
     "static/media/tailwind.svg": "/personal/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/css.svg": "/personal/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.da6230fe.css.map": "/personal/static/css/main.da6230fe.css.map",
-    "main.eeaad363.js.map": "/personal/static/js/main.eeaad363.js.map"
+    "main.e81fc5b9.css.map": "/personal/static/css/main.e81fc5b9.css.map",
+    "main.8c0a790a.js.map": "/personal/static/js/main.8c0a790a.js.map"
   },
   "entrypoints": [
-    "static/css/main.da6230fe.css",
-    "static/js/main.eeaad363.js"
+    "static/css/main.e81fc5b9.css",
+    "static/js/main.8c0a790a.js"
   ]
 }
