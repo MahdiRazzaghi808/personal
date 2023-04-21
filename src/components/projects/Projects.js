@@ -7,10 +7,15 @@ import Project from './projectC/Project'
 // context
 import { MenuActiveContext } from '../../context/projectMenu/MenuActiveContextProvider'
 
+
+
+
+
 const Projects = () => {
 
-    const {state, dispatch} = useContext(MenuActiveContext);
+    const { state, dispatch } = useContext(MenuActiveContext);
 
+ 
 
 
     return (

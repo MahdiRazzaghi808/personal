@@ -3,7 +3,7 @@ import styles from './project.module.css'
 import { technologyIcon } from '../../../helper/technology'
 const Project = ({ data }) => {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
 
             <div className={styles.image}>
                 <img src={data.image} alt="project" />

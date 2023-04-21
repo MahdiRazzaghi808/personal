@@ -9,7 +9,7 @@ const Skill = ({ data }) => {
                 <p>{data.title}</p>
             </div>
             <div className={styles.showPercent}>
-                <div style={{ width: `${data.percent}%` }} ></div>
+                <div style={{ width: `${data.percent}%`}} data-aos="fade-right" data-aos-offset="100" data-aos-duration="700" ></div>
             </div>
 
         </div>

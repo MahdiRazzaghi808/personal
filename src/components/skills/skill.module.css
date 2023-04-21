@@ -19,6 +19,7 @@
     background-color: #1a1a1a;
     direction: ltr;
     border-radius: 1rem;
+    overflow: hidden !important;
 }
 
 .showPercent div {

@@ -6,10 +6,10 @@ import resume from '../../asset/resume.pdf'
 const AboutMe = () => {
     return (
         <div id="about" className={styles.aboutMe}>
-            <div  className={styles.imageWrapper}>
+            <div  className={styles.imageWrapper} data-aos="fade-left" data-aos-duration="1000">
                 <img src={aboutImage} alt="about" />
             </div>
-            <div className={styles.explain} >
+            <div className={styles.explain} data-aos="fade-right" data-aos-duration="1000">
                 <h2>درباره من</h2>
                 <p>دانشجو مهندسی عمران دانشگاه گیلان , توسعه دهنده فرانت اند , مشتاق یادگیری ,  سرگرمی ها : کتاب   فیلم   موزیک   ورزش ❤ </p>
                 <p>نام : <span>مهدی رزاقی</span></p>
