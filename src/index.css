@@ -12,6 +12,7 @@
 
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
@@ -45,6 +46,8 @@ input:focus {
 	padding: 0 1rem;
 	position: relative;
 }
+
+
 
 
 

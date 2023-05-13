@@ -20,7 +20,9 @@ function App() {
   useEffect(() => {
     AOS.init({
       once: true, // run animation only once
-    });
+    
+    }
+    );
   }, []);
 
   return (
