@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className={styles.contact}>
                         <h3> تماس با من</h3>
                         <div>
-                            <p>mahdi.razzaghi@yahoo.com</p>
+                            <p>mahdi_razzaghi@yahoo.com</p>
                             <p>09920801032</p>
                         </div>
                     </div>
