@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal/static/css/main.4055cb6a.css",
-    "main.js": "/personal/static/js/main.e033dd06.js",
+    "main.js": "/personal/static/js/main.9ccda20e.js",
     "static/media/reactShop.jpg": "/personal/static/media/reactShop.7ec544792a44cfffd96d.jpg",
     "static/media/BHost.jpg": "/personal/static/media/BHost.52d19cbaa77ddb690359.jpg",
     "static/media/dashboard.jpg": "/personal/static/media/dashboard.d984f65ea156b6336eaa.jpg",
@@ -12,7 +12,7 @@
     "static/media/zarinpal.jpg": "/personal/static/media/zarinpal.eb91a9b37d16314699dc.jpg",
     "static/media/cmsFa-react-mui.jpg": "/personal/static/media/cmsFa-react-mui.449b6e247a7688e23275.jpg",
     "static/media/quizApp.jpg": "/personal/static/media/quizApp.9211ac21d80bf182b7d2.jpg",
-    "static/media/resume.pdf": "/personal/static/media/resume.9d732ddfdce0a5469337.pdf",
+    "static/media/resume.pdf": "/personal/static/media/resume.27b16240381b855bc49d.pdf",
     "static/media/zoo.jpg": "/personal/static/media/zoo.bc7a554a0e2ec4088b61.jpg",
     "static/media/register.jpg": "/personal/static/media/register.11a7e91eb8f8f352ce07.jpg",
     "static/media/lamborghini.jpg": "/personal/static/media/lamborghini.7f8f750349e8e638105d.jpg",
@@ -32,10 +32,10 @@
     "static/media/tailwind.svg": "/personal/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/css.svg": "/personal/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "main.4055cb6a.css.map": "/personal/static/css/main.4055cb6a.css.map",
-    "main.e033dd06.js.map": "/personal/static/js/main.e033dd06.js.map"
+    "main.9ccda20e.js.map": "/personal/static/js/main.9ccda20e.js.map"
   },
   "entrypoints": [
     "static/css/main.4055cb6a.css",
-    "static/js/main.e033dd06.js"
+    "static/js/main.9ccda20e.js"
   ]
 }
