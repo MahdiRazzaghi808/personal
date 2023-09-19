@@ -15,28 +15,35 @@ import parsHost from "../asset/project/parsHost.jpg"
 import admin from "../asset/project/question.svg"
 import lamborghini from "../asset/project/lamborghini.jpg"
 import cmsFa from "../asset/project/cmsFa-react-mui.jpg"
+import toDoList from "../asset/project/toDoList.jpg"
 
 export const myProjects = [
     { id: 1, title: "پنل ادمین", image: cmsFa, technologies: ["react", 'mui', 'css'], link: "https://cmsfa-react-mui.iran.liara.run/", explain: "", active: "active" },
-    { id: 2, title: "فروشگاه", image: reactShop, technologies: ["react", "css"], link: "https://shop-react-css.iran.liara.run/", explain: "", active: "active" },
-    { id: 3, title: "فرم ثبت نام", image: register, technologies: ["react", "css"], link: "https://register-react-css.iran.liara.run/SingIn", explain: "", active: "active" },
-    { id: 4, title: "لامبورگینی", image: lamborghini, technologies: ["react", "sass"], link: "https://mahdirazzaghi808.github.io/lamborghini-react-sass/", explain: "", active: "active" },
-    { id: 5, title: "کوئیز اپ", image: quizApp, technologies: ["react", "bootstrap"], link: "https://mahdirazzaghi808.github.io/quizApp-react-bootstrap/", explain: "", active: "active" },
-    { id: 6, title: "شخصی", image: personal, technologies: ["react", "css"], link: "#", explain: "", active: "active" },
+    { id: 2, title: "تودولیست", image: toDoList, technologies: ["react", 'mui', 'tailwind'], link: "https://mahdirazzaghi808.github.io/toDoList-react-mui-tailwind/", explain: "", active: "active" },
+    { id: 3, title: "فروشگاه", image: reactShop, technologies: ["react", "css"], link: "https://shop-react-css.iran.liara.run/", explain: "", active: "active" },
+    { id: 4, title: "فرم ثبت نام", image: register, technologies: ["react", "css"], link: "https://register-react-css.iran.liara.run/SingIn", explain: "", active: "active" },
+    { id: 5, title: "لامبورگینی", image: lamborghini, technologies: ["react", "sass"], link: "https://mahdirazzaghi808.github.io/lamborghini-react-sass/", explain: "", active: "active" },
+    { id: 6, title: "کوئیز اپ", image: quizApp, technologies: ["react", "bootstrap"], link: "https://mahdirazzaghi808.github.io/quizApp-react-bootstrap/", explain: "", active: "active" },
+    { id: 7, title: "شخصی", image: personal, technologies: ["react", "css"], link: "#", explain: "", active: "active" },
 
-    { id: 7, title: "موزیک پلیر", image: admin, technologies: ["js", "tailwind"], link: "#", explain: "", active: "deActive" },
-    { id: 8, title: "فست فود", image: fastFood, technologies: ["css"], link: "https://mahdirazzaghi808.github.io/fast-food-css/", explain: "", active: "active" },
-    { id: 9, title: "پنل ادمین", image: dashboard, technologies: ["css"], link: "https://mahdirazzaghi808.github.io/dashboard-css/", explain: "", active: "active" },
-    { id: 10, title: "فروشگاهی", image: shopCss, technologies: ["css"], link: "https://mahdirazzaghi808.github.io/shop-css/", explain: "", active: "active" },
-    { id: 11, title: "بازی جاسوس", image: spy, technologies: ["js", "css"], link: "https://mahdirazzaghi808.github.io/spyGame/", explain: "", active: "active" },
+    { id: 8, title: "موزیک پلیر", image: admin, technologies: ["js", "tailwind"], link: "#", explain: "", active: "deActive" },
+    { id: 9, title: "فست فود", image: fastFood, technologies: ["css"], link: "https://mahdirazzaghi808.github.io/fast-food-css/", explain: "", active: "active" },
+    { id: 10, title: "پنل ادمین", image: dashboard, technologies: ["css"], link: "https://mahdirazzaghi808.github.io/dashboard-css/", explain: "", active: "active" },
+    { id: 11, title: "فروشگاهی", image: shopCss, technologies: ["css"], link: "https://mahdirazzaghi808.github.io/shop-css/", explain: "", active: "active" },
+    { id: 12, title: "بازی جاسوس", image: spy, technologies: ["js", "css"], link: "https://mahdirazzaghi808.github.io/spyGame/", explain: "", active: "active" },
 
-    { id: 12, title: "زرین پال", image: zarinPal, technologies: ["sass"], link: "https://mahdirazzaghi808.github.io/zarinpal-sass/", explain: "", active: "active" },
-    { id: 13, title: "تولید رمز", image: password, technologies: ["js", "sass"], link: "https://mahdirazzaghi808.github.io/password-sass-js/", explain: "", active: "active" },
+    { id: 13, title: "زرین پال", image: zarinPal, technologies: ["sass"], link: "https://mahdirazzaghi808.github.io/zarinpal-sass/", explain: "", active: "active" },
+    { id: 14, title: "تولید رمز", image: password, technologies: ["js", "sass"], link: "https://mahdirazzaghi808.github.io/password-sass-js/", explain: "", active: "active" },
 
 
-    { id: 14, title: "هاست", image: BHost, technologies: ["tailwind"], link: "https://mahdirazzaghi808.github.io/BHost-tailwind/", explain: "", active: "active" },
-    { id: 15, title: "هاست ", image: parsHost, technologies: ["tailwind"], link: "https://mahdirazzaghi808.github.io/parsHost-tailwind/", explain: "", active: "active" },
+    { id: 15, title: "هاست", image: BHost, technologies: ["tailwind"], link: "https://mahdirazzaghi808.github.io/BHost-tailwind/", explain: "", active: "active" },
+    { id: 16, title: "هاست ", image: parsHost, technologies: ["tailwind"], link: "https://mahdirazzaghi808.github.io/parsHost-tailwind/", explain: "", active: "active" },
 
-    { id: 16, title: "باغ وحش", image: zoo, technologies: ["bootstrap"], link: "https://mahdirazzaghi808.github.io/zoo-bootstrap/  ", explain: "", active: "active" },
-    { id: 17, title: "هواشناسی", image: weather, technologies: ["js", "bootstrap"], link: "https://mahdirazzaghi808.github.io/weather-bootstrap/", explain: "", active: "active" },
+    { id: 17, title: "باغ وحش", image: zoo, technologies: ["bootstrap"], link: "https://mahdirazzaghi808.github.io/zoo-bootstrap/  ", explain: "", active: "active" },
+    { id: 18, title: "هواشناسی", image: weather, technologies: ["js", "bootstrap"], link: "https://mahdirazzaghi808.github.io/weather-bootstrap/", explain: "", active: "active" },
 ]
+
+
+
+
+
