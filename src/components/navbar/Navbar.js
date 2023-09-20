@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Menu from './Menu'
 
-import logo from '../../asset/logo.svg'
+// import logo from '../../asset/logo.svg'
 import styled from 'styled-components'
 import styles from './navbar.module.css'
 
@@ -63,7 +63,10 @@ const Navbar = () => {
             <div className="container">
                 <div className={styles.wrapper}>
 
-                    <a href="https://github.com/MahdiRazzaghi808" className={styles.logo}><img src={logo} alt="logo" /></a>
+                    {/* <a href="https://github.com/MahdiRazzaghi808" className={styles.logo}><img src={logo} alt="logo" /></a> */}
+                    <span className={styles.logo}>
+                        MR
+                    </span>
 
                     <Div open={openState} onClick={clickHandler}>
                         <div></div>

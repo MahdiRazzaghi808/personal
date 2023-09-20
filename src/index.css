@@ -2,6 +2,10 @@
 	font-family: yekan;
 	src: url("./font/Yekan.ttf");
 }
+@font-face {
+	font-family: DancingScript;
+	src: url("./font/DancingScript-Medium.ttf");
+}
 
 * {
 	box-sizing: border-box;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-scroll';
 
 
@@ -29,7 +29,7 @@ const Menu = ({ open }) => {
     const { openState, setOpenState } = open
 
     const closeHandler = () => {
-        setOpenState(false)
+        setOpenState(false);
     }
 
     return (
@@ -41,7 +41,7 @@ const Menu = ({ open }) => {
 
                     {itemsMenu.map(item => <li key={item.id} className={styles.navLink}>
 
-                        <Link activeClass={styles.active} to={item.href} spy={true} smooth={true} offset={-128} duration={200} onClick={closeHandler}>
+                        <Link activeClass={styles.active} to={item.href} spy={true} smooth={true} offset={item.id === 1 ? -123 : -75} duration={200} onClick={closeHandler}>
 
                             {item.content}
 
