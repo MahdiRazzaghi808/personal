@@ -12,7 +12,7 @@ export default function Banner() {
                 <p>توسعه دهنده فرانت اند</p>
             </div>
             <div className={styles.image}  data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear">
-                <img src={banner} alt="" />
+                <img src={banner} alt="personal" />
             </div>
         </div>
     )

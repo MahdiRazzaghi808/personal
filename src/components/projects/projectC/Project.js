@@ -16,9 +16,10 @@ const Project = ({ data }) => {
                         data.technologies.map((item, index) => <img key={index} src={`${technologyIcon(item)}`} alt="technology" />)
                     }
                 </div>
-                <div className={styles.line}></div>
-                <div className={styles.explain}><span>توضیحات : </span> {data.explain}</div>
-                <a href={data.link} className={styles.see} style={{ pointerEvents: data.active === "deActive" && "none",backgroundColor:data.active === "deActive" && "#f92b52" }}>{data.active === "active" ? "مشاهده پروژه" : "به زودی..."}</a>
+                {/* <div className={styles.line}></div> */}
+                {/* <div className={styles.explain}><span>توضیحات : </span> {data.explain}</div> */}
+                    {/* <a href={data.link} className={styles.see} style={{ pointerEvents: data.active === "deActive" && "none", backgroundColor: data.active === "deActive" && "#f92b52" }}>{data.active === "active" ? "مشاهده پروژه" : "به زودی..."}</a> */}
+    
             </div>
         </div>
     )

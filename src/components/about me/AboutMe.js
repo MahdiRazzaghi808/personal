@@ -17,7 +17,7 @@ const AboutMe = () => {
                 <p>آدرس : <span>ایران گیلان رشت</span></p>
                 <p>ایمیل : <span className={styles.email}>mahdi_razzaghi@yahoo.com</span> </p>
                 <p>تلفن : <span>09920801032</span></p>
-                <p><span className={styles.project}>18</span> پروژه کامل شده</p>
+                <p><span className={styles.project}>19</span> پروژه کامل شده</p>
                 <a href={resume} download="resume" className={styles.button}>دانلود رزومه</a>
             </div>
         </div>

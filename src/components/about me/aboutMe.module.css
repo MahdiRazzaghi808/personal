@@ -1,7 +1,7 @@
 .aboutMe {
     display: flex;
     padding-top: 2rem;
-   
+
 }
 
 .imageWrapper {
@@ -10,12 +10,13 @@
 
 .imageWrapper img {
     height: 100%;
+    transform: scaleX(-1);
 }
 
 
 
 .explain {
-    padding-top:2rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -51,11 +52,11 @@
     color: #ffbd39
 }
 
-.button{
+.button {
     font-family: yekan;
-    font-size:1rem;
+    font-size: 1rem;
     width: 8rem;
-    padding:1rem 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     background-color: #ffbd39;
     color: #000;
@@ -76,7 +77,7 @@
 
     }
 
-    .button{
+    .button {
         cursor: pointer;
     }
 }
