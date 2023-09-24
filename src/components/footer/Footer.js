@@ -14,8 +14,12 @@ const Footer = () => {
                     <div className={styles.contact}>
                         <h3> تماس با من</h3>
                         <div>
-                            <p>mahdi_razzaghi@yahoo.com</p>
-                            <p>09920801032</p>
+                            <p>
+                                <a href="mailto:mahdi_razzaghi@yahoo.com" dir="ltr">mahdi_razzaghi@yahoo.com</a>
+                            </p>
+                            <p>
+                                <a href="tel:09920801032" dir="ltr">09920801032</a>
+                            </p>
                         </div>
                     </div>
 
