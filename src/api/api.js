@@ -20,8 +20,8 @@ import verona from "../asset/project/veron1.jpg"
 import onlyMusic from "../asset/project/only Music.jpg"
 
 export const myProjects = [
-    { id: 1, title: "ورونا", image: verona, technologies: ["react", 'mui', 'css'], link: "https://cmsfa-react-mui.iran.liara.run/", explain: "", active: "active" },
-    { id: 2, title: "only music", image: onlyMusic, technologies: ["js", 'tailwind'], link: "https://cmsfa-react-mui.iran.liara.run/", explain: "", active: "active" },
+    { id: 1, title: "ورونا", image: verona, technologies: ["react", 'mui', 'css'], link: "https://verona.iran.liara.run/", explain: "", active: "active" },
+    { id: 2, title: "only music", image: onlyMusic, technologies: ["js", 'tailwind'], link: "https://onlymusic.iran.liara.run/index.html", explain: "", active: "active" },
     { id: 3, title: "پنل ادمین", image: cmsFa, technologies: ["react", 'mui', 'css'], link: "https://cmsfa-react-mui.iran.liara.run/", explain: "", active: "active" },
     { id: 4, title: "تودولیست", image: toDoList, technologies: ["react", 'mui', 'tailwind'], link: "https://mahdirazzaghi808.github.io/toDoList-react-mui-tailwind/", explain: "", active: "active" },
     { id: 6, title: "فرم ثبت نام", image: register, technologies: ["react", "css"], link: "https://register-react-css.iran.liara.run/SingIn", explain: "", active: "active" },
@@ -43,7 +43,7 @@ export const myProjects = [
     { id: 17, title: "هاست ", image: parsHost, technologies: ["tailwind"], link: "https://mahdirazzaghi808.github.io/parsHost-tailwind/", explain: "", active: "active" },
 
     { id: 18, title: "باغ وحش", image: zoo, technologies: ["bootstrap"], link: "https://mahdirazzaghi808.github.io/zoo-bootstrap/  ", explain: "", active: "active" },
-    { id: 29, title: "هواشناسی", image: weather, technologies: ["js", "bootstrap"], link: "https://mahdirazzaghi808.github.io/weather-bootstrap/", explain: "", active: "active" },
+    { id: 19, title: "هواشناسی", image: weather, technologies: ["js", "bootstrap"], link: "https://mahdirazzaghi808.github.io/weather-bootstrap/", explain: "", active: "active" },
 ]
 
 
