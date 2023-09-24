@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.4055cb6a.css",
-    "main.js": "/personal/static/js/main.656edca0.js",
+    "main.css": "/personal/static/css/main.7e0377ec.css",
+    "main.js": "/personal/static/js/main.f83ec546.js",
     "static/media/reactShop.jpg": "/personal/static/media/reactShop.7ec544792a44cfffd96d.jpg",
     "static/media/BHost.jpg": "/personal/static/media/BHost.52d19cbaa77ddb690359.jpg",
     "static/media/dashboard.jpg": "/personal/static/media/dashboard.d984f65ea156b6336eaa.jpg",
     "static/media/banner.png": "/personal/static/media/banner.80257851153960d44230.png",
+    "static/media/veron1.jpg": "/personal/static/media/veron1.c4efc47a3bcf55e5e500.jpg",
     "static/media/parsHost.jpg": "/personal/static/media/parsHost.8e79ec3014e25fea5477.jpg",
     "static/media/fast-food.jpg": "/personal/static/media/fast-food.1467ae8dd088125dc14f.jpg",
     "static/media/shop.jpg": "/personal/static/media/shop.30282a41af92b03d5470.jpg",
+    "static/media/only Music.jpg": "/personal/static/media/only Music.e7c8ad5e067a00c15ae2.jpg",
     "static/media/zarinpal.jpg": "/personal/static/media/zarinpal.eb91a9b37d16314699dc.jpg",
     "static/media/cmsFa-react-mui.jpg": "/personal/static/media/cmsFa-react-mui.449b6e247a7688e23275.jpg",
     "static/media/quizApp.jpg": "/personal/static/media/quizApp.9211ac21d80bf182b7d2.jpg",
@@ -18,8 +20,8 @@
     "static/media/lamborghini.jpg": "/personal/static/media/lamborghini.7f8f750349e8e638105d.jpg",
     "static/media/password.jpg": "/personal/static/media/password.c3a71de9835e968350b0.jpg",
     "static/media/personal.jpg": "/personal/static/media/personal.31bbd7bae5bb015208c8.jpg",
-    "static/media/logo.svg": "/personal/static/media/logo.f98afcf4e90bd6d681bf5e809ef6d5d6.svg",
     "static/media/toDoList.jpg": "/personal/static/media/toDoList.2ede83d03ff64919cf29.jpg",
+    "static/media/DancingScript-Medium.ttf": "/personal/static/media/DancingScript-Medium.18363d2ef0655855f4a6.ttf",
     "static/media/weather.jpg": "/personal/static/media/weather.99cdfe4fe3b134fa7419.jpg",
     "static/media/Yekan.ttf": "/personal/static/media/Yekan.012789e6e9f8b9a4929f.ttf",
     "static/media/spy.jpg": "/personal/static/media/spy.82fe9c742e525ed4177d.jpg",
@@ -32,11 +34,11 @@
     "index.html": "/personal/index.html",
     "static/media/tailwind.svg": "/personal/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/css.svg": "/personal/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.4055cb6a.css.map": "/personal/static/css/main.4055cb6a.css.map",
-    "main.656edca0.js.map": "/personal/static/js/main.656edca0.js.map"
+    "main.7e0377ec.css.map": "/personal/static/css/main.7e0377ec.css.map",
+    "main.f83ec546.js.map": "/personal/static/js/main.f83ec546.js.map"
   },
   "entrypoints": [
-    "static/css/main.4055cb6a.css",
-    "static/js/main.656edca0.js"
+    "static/css/main.7e0377ec.css",
+    "static/js/main.f83ec546.js"
   ]
 }
